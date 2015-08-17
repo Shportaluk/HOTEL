@@ -1,0 +1,9 @@
+<publishData>
+  <publishTarget publishUrl="C:\WebSite\">
+    <file relUrl="bin/WCF_Hotel_Service.dll.config" publishTime="08/17/2015 21:05:46" />
+    <file relUrl="bin/WCF_Hotel_Service.pdb" publishTime="08/17/2015 22:59:50" />
+    <file relUrl="bin/WCF_Hotel_Service.dll" publishTime="08/17/2015 22:59:50" />
+    <file relUrl="Web.config" publishTime="08/17/2015 21:05:46" />
+    <file relUrl="WCF_Hotel_Service.Service1.svc" publishTime="08/17/2015 22:59:59" />
+  </publishTarget>
+</publishData>

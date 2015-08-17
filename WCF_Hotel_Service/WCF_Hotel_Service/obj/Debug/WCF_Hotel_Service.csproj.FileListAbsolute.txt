@@ -1,0 +1,5 @@
+c:\users\администратор.пк\documents\visual studio 2015\Projects\WCF_Hotel_Service\WCF_Hotel_Service\bin\Debug\WCF_Hotel_Service.dll.config
+c:\users\администратор.пк\documents\visual studio 2015\Projects\WCF_Hotel_Service\WCF_Hotel_Service\bin\Debug\WCF_Hotel_Service.dll
+c:\users\администратор.пк\documents\visual studio 2015\Projects\WCF_Hotel_Service\WCF_Hotel_Service\bin\Debug\WCF_Hotel_Service.pdb
+c:\users\администратор.пк\documents\visual studio 2015\Projects\WCF_Hotel_Service\WCF_Hotel_Service\obj\Debug\WCF_Hotel_Service.dll
+c:\users\администратор.пк\documents\visual studio 2015\Projects\WCF_Hotel_Service\WCF_Hotel_Service\obj\Debug\WCF_Hotel_Service.pdb

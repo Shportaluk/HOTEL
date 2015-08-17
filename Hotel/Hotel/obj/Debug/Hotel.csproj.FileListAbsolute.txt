@@ -1,0 +1,8 @@
+c:\users\администратор.пк\documents\visual studio 2012\Projects\Hotel\Hotel\bin\Debug\Hotel.exe.config
+c:\users\администратор.пк\documents\visual studio 2012\Projects\Hotel\Hotel\obj\Debug\Hotel.Properties.Resources.resources
+c:\users\администратор.пк\documents\visual studio 2012\Projects\Hotel\Hotel\obj\Debug\Hotel.csproj.GenerateResource.Cache
+c:\users\администратор.пк\documents\visual studio 2012\Projects\Hotel\Hotel\bin\Debug\Hotel.exe
+c:\users\администратор.пк\documents\visual studio 2012\Projects\Hotel\Hotel\bin\Debug\Hotel.pdb
+c:\users\администратор.пк\documents\visual studio 2012\Projects\Hotel\Hotel\obj\Debug\Hotel.exe
+c:\users\администратор.пк\documents\visual studio 2012\Projects\Hotel\Hotel\obj\Debug\Hotel.pdb
+c:\users\администратор.пк\documents\visual studio 2012\Projects\Hotel\Hotel\obj\Debug\Hotel.Form1.resources
