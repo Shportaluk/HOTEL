@@ -13,7 +13,6 @@ namespace Hotel
 {
     public partial class Form1 : Form
     {
-        public string con_str = @"Data Source=.\SQLExpress;Initial Catalog=master;Integrated Security=True";
         public Form1()
         {
             InitializeComponent();
