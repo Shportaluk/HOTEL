@@ -14,6 +14,6 @@ namespace WCF_Hotel_Service
         [OperationContract]
         List<List<string>> GetAllRooms();
         [OperationContract]
-        void Reserve_Room( string i );
+        string Reserve_Room( string i );
     }
 }

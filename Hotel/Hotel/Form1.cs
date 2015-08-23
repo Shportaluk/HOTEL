@@ -23,7 +23,7 @@ namespace Hotel
             foreach (ListViewItem item in listV_rooms.Items)
                 listV_rooms.Items.Remove(item);
 
-            Hotel_Service.Service1Client client = new Hotel_Service.Service1Client();
+            Hotel_Service.HotelServiceClient client = new Hotel_Service.HotelServiceClient();
             List<List<string>> list_of_rooms = client.GetAllRooms();
 
             foreach (List<string> s in list_of_rooms)
@@ -43,10 +43,17 @@ namespace Hotel
         private void btn_reserve_Click(object sender, EventArgs e)
         {
             var index = listV_rooms.SelectedItems[0].Text;
-            Hotel_Service.Service1Client client = new Hotel_Service.Service1Client();
+            Hotel_Service.HotelServiceClient client = new Hotel_Service.HotelServiceClient();
             string i = index.ToString();
-            client.Reserve_Room( i );
-            Update_();
+            string mess = client.Reserve_Room( i );
+            if (mess != null)
+            {
+                MessageBox.Show(mess);
+            }
+            else
+            {
+                Update_();
+            }
         }
 
         private void btn_Update_Click(object sender, EventArgs e)

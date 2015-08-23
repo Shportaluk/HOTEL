@@ -8,3 +8,9 @@ C:\Users\Администратор.ПК\Documents\Visual Studio 2015\Projects\H
 C:\Users\Администратор.ПК\Documents\Visual Studio 2015\Projects\Hotel\WCF_Hotel_Service\WCF_Hotel_Service\bin\Debug\WCF_Hotel_Service.dll.config
 C:\Users\Администратор.ПК\Documents\Visual Studio 2015\Projects\Hotel\WCF_Hotel_Service\WCF_Hotel_Service\bin\Debug\WCF_Hotel_Service.dll
 C:\Users\Администратор.ПК\Documents\Visual Studio 2015\Projects\Hotel\WCF_Hotel_Service\WCF_Hotel_Service\bin\Debug\WCF_Hotel_Service.pdb
+C:\Users\Администратор.ПК\Desktop\Hotel\Hotel\WCF_Hotel_Service\WCF_Hotel_Service\bin\Debug\WCF_Hotel_Service.dll.config
+C:\Users\Администратор.ПК\Desktop\Hotel\Hotel\WCF_Hotel_Service\WCF_Hotel_Service\bin\Debug\WCF_Hotel_Service.dll
+C:\Users\Администратор.ПК\Desktop\Hotel\Hotel\WCF_Hotel_Service\WCF_Hotel_Service\bin\Debug\WCF_Hotel_Service.pdb
+C:\Users\Администратор.ПК\Desktop\Hotel\Hotel\WCF_Hotel_Service\WCF_Hotel_Service\obj\Debug\WCF_Hotel_Service.dll
+C:\Users\Администратор.ПК\Desktop\Hotel\Hotel\WCF_Hotel_Service\WCF_Hotel_Service\obj\Debug\WCF_Hotel_Service.pdb
+C:\Users\Администратор.ПК\Desktop\Hotel\Hotel\WCF_Hotel_Service\WCF_Hotel_Service\obj\Debug\WCF_Hotel_Service.csprojResolveAssemblyReference.cache

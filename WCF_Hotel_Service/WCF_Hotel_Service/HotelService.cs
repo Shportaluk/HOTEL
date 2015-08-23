@@ -52,38 +52,29 @@ namespace WCF_Hotel_Service
         }
 
 
-        public void Reserve_Room( string i )
+        public string Reserve_Room( string i )
         {
+            string str_err = null;
             string con_str = ConfigurationManager.ConnectionStrings["str_con"].ConnectionString;
             SqlConnection con = new SqlConnection(con_str);
             SqlCommand cmd = new SqlCommand();
 
-            // Вибираєм кімнату в якої Id == index
-            cmd.CommandText = String.Format("SELECT Is_reserve FROM tbl_rooms WHERE Id = {0}", i );
+            cmd.CommandText = String.Format("EXECUTE reserve {0}", i);
             cmd.CommandType = CommandType.Text;
             cmd.Connection = con;
 
-            con.Open();
-            SqlDataReader reader = cmd.ExecuteReader();
-            while (reader.Read())
+            try
             {
-                // 1 - кімната заброньована
-                // 0 - кімната вільна
-                // якщо 0 то заброньовуємо кімнату
-                if (reader[0].ToString() == "0")
-                {
-                    SqlConnection con2 = new SqlConnection(con_str);
-                    SqlCommand cmd_reserve = new SqlCommand();
-                    cmd_reserve.CommandText = String.Format("UPDATE tbl_rooms SET Is_reserve=1 WHERE Id={0}", i );
-                    cmd_reserve.CommandType = CommandType.Text;
-                    cmd_reserve.Connection = con2;
-                    con2.Open();
-                    SqlDataReader res = cmd_reserve.ExecuteReader();
-                    con2.Close();
-                    break;
-                }
+                con.Open();
+
+                SqlDataReader res = cmd.ExecuteReader();
+            }
+            catch (Exception e)
+            {
+                str_err = e.Message;
             }
             con.Close();
+            return str_err;
         }
     }
 }

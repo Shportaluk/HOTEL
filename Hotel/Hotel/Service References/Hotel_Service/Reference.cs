@@ -12,46 +12,46 @@ namespace Hotel.Hotel_Service {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="Hotel_Service.IService1")]
-    public interface IService1 {
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="Hotel_Service.IHotelService")]
+    public interface IHotelService {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetAllRooms", ReplyAction="http://tempuri.org/IService1/GetAllRoomsResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IHotelService/GetAllRooms", ReplyAction="http://tempuri.org/IHotelService/GetAllRoomsResponse")]
         System.Collections.Generic.List<System.Collections.Generic.List<string>> GetAllRooms();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetAllRooms", ReplyAction="http://tempuri.org/IService1/GetAllRoomsResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IHotelService/GetAllRooms", ReplyAction="http://tempuri.org/IHotelService/GetAllRoomsResponse")]
         System.Threading.Tasks.Task<System.Collections.Generic.List<System.Collections.Generic.List<string>>> GetAllRoomsAsync();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/Reserve_Room", ReplyAction="http://tempuri.org/IService1/Reserve_RoomResponse")]
-        void Reserve_Room(string i);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IHotelService/Reserve_Room", ReplyAction="http://tempuri.org/IHotelService/Reserve_RoomResponse")]
+        string Reserve_Room(string i);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/Reserve_Room", ReplyAction="http://tempuri.org/IService1/Reserve_RoomResponse")]
-        System.Threading.Tasks.Task Reserve_RoomAsync(string i);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IHotelService/Reserve_Room", ReplyAction="http://tempuri.org/IHotelService/Reserve_RoomResponse")]
+        System.Threading.Tasks.Task<string> Reserve_RoomAsync(string i);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IService1Channel : Hotel.Hotel_Service.IService1, System.ServiceModel.IClientChannel {
+    public interface IHotelServiceChannel : Hotel.Hotel_Service.IHotelService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class Service1Client : System.ServiceModel.ClientBase<Hotel.Hotel_Service.IService1>, Hotel.Hotel_Service.IService1 {
+    public partial class HotelServiceClient : System.ServiceModel.ClientBase<Hotel.Hotel_Service.IHotelService>, Hotel.Hotel_Service.IHotelService {
         
-        public Service1Client() {
+        public HotelServiceClient() {
         }
         
-        public Service1Client(string endpointConfigurationName) : 
+        public HotelServiceClient(string endpointConfigurationName) : 
                 base(endpointConfigurationName) {
         }
         
-        public Service1Client(string endpointConfigurationName, string remoteAddress) : 
+        public HotelServiceClient(string endpointConfigurationName, string remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public Service1Client(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public HotelServiceClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public Service1Client(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public HotelServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress) {
         }
         
@@ -63,11 +63,11 @@ namespace Hotel.Hotel_Service {
             return base.Channel.GetAllRoomsAsync();
         }
         
-        public void Reserve_Room(string i) {
-            base.Channel.Reserve_Room(i);
+        public string Reserve_Room(string i) {
+            return base.Channel.Reserve_Room(i);
         }
         
-        public System.Threading.Tasks.Task Reserve_RoomAsync(string i) {
+        public System.Threading.Tasks.Task<string> Reserve_RoomAsync(string i) {
             return base.Channel.Reserve_RoomAsync(i);
         }
     }
