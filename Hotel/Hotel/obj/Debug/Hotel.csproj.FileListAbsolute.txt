@@ -1,9 +1,0 @@
-C:\Users\Администратор.ПК\Desktop\Hotel\Hotel\Hotel\Hotel\bin\Debug\Hotel.exe.config
-C:\Users\Администратор.ПК\Desktop\Hotel\Hotel\Hotel\Hotel\bin\Debug\Hotel.exe
-C:\Users\Администратор.ПК\Desktop\Hotel\Hotel\Hotel\Hotel\bin\Debug\Hotel.pdb
-C:\Users\Администратор.ПК\Desktop\Hotel\Hotel\Hotel\Hotel\obj\Debug\Hotel.csprojResolveAssemblyReference.cache
-C:\Users\Администратор.ПК\Desktop\Hotel\Hotel\Hotel\Hotel\obj\Debug\Hotel.Form1.resources
-C:\Users\Администратор.ПК\Desktop\Hotel\Hotel\Hotel\Hotel\obj\Debug\Hotel.Properties.Resources.resources
-C:\Users\Администратор.ПК\Desktop\Hotel\Hotel\Hotel\Hotel\obj\Debug\Hotel.csproj.GenerateResource.Cache
-C:\Users\Администратор.ПК\Desktop\Hotel\Hotel\Hotel\Hotel\obj\Debug\Hotel.exe
-C:\Users\Администратор.ПК\Desktop\Hotel\Hotel\Hotel\Hotel\obj\Debug\Hotel.pdb
