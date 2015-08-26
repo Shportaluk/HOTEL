@@ -214,4 +214,8 @@ FakesAssemblies/
 **/*.DesktopClient/ModelManifest.xml
 **/*.Server/GeneratedArtifacts
 **/*.Server/ModelManifest.xml
+<<<<<<< HEAD
 _Pvt_Extensions
+=======
+_Pvt_Extensions
+>>>>>>> origin/master
